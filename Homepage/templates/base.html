@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html5>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/text.css' %}">
+    <title>Kiarash Golzadeh</title>
+</head>
+<body>
+    <div id="all">
+        <div id="header" class="Mehr">
+            <h3 id="title">کیارش گل زاده</h3>
+            <ul>
+                <li>
+                    <a href="{% url 'Index' %}">صفحه اصلی</a>
+                </li>
+                <li>
+                    <a href="{% url 'Research' %}">علایق پژوهشی</a>
+                </li>
+            </ul>
+        </div>
+        <div id="container" class="Nazanin">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@font-face{
+    font-family: "B Nazanin";
+    src:
+            url("../fonts/BNazanin.ttf"),url("../fonts/B Nazanin Bold_YasDL.com.ttf");
+}
+@font-face{
+    font-family: "B Mehr";
+    src:
+            url("../fonts/B Mehr Bold_YasDL.com.ttf");
+}
+.Nazanin
+{
+    font-family: B Nazanin;
+}
+
+.Mehr
+{
+    font-family:B Mehr;
+}
+
+#title, #header ul li a
+{
+    text-decoration: none;
+    color: #6aff00;
+}
+
+#content h1
+{
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    padding:5px;
+}
+
+#content ul li , form table tr td
+{
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    padding:5px;
+    font-size: 18px;
+}
